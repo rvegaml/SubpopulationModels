@@ -3,7 +3,7 @@ from scipy.optimize import minimize, Bounds, dual_annealing
 from scipy.stats import skewnorm
 from functools import partial
 
-from InfectiousModels import f_SIR_Kronecker
+from SubpopulationsLib.InfectiousModels import f_SIR_Kronecker
 
 def create_gaussian_dictionary(T=52, mu_list=None, sigma_list=None, skewness_list=None):
 	'''
